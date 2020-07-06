@@ -1,0 +1,33 @@
+{
+    "name": "BitGanj shop",
+    "short_name": "On line canabis shop ",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Created by god Jah.",
+    "icons": [{
+        "src": "/img/BitGANJ48.png",
+        "sizes": "48x48",
+        "type": "image/png"
+    },
+    {
+    "src": "/img/BitGANJ72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+    },
+    {
+    "src": "/img/BitGANJ96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+	},
+    {
+    "src": "/img/BitGANJ144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+    }
+	],
+  "related_applications": [{
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+  }]
+}

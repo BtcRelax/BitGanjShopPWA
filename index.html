@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
+  <title>Fastfen shop</title>
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Fastfen Shop</h1>
+  </header>
+  <main>
+    <section class="card">
+      <div class="img-container">
+        <!-- CC0 image from https://unsplash.com/photos/NuE8Nu3otjo -->
+        <img src="images/back_amf.jpg" alt="The earth as caputured from space, illumnitated by cosmic radiation">
+      </div>
+      <p>
+    	Накурю, ушмыгаю, накормлю таблами, порву ... <a href="http://info.fastfen.club">http://info.fastfen.club</a>.
+      </p>
+    </section>
+  </main>
+  <footer>
+    <ul class="flex-list">
+      <li><a href="#home">Закладки</a></li>
+      <li><a href="http://t.me/godjah">Обратиться</a></li>
+    </ul>
+  </footer>
+
+   <!-- TODO Register the service worker -->
+   <script>
+	if ('serviceWorker' in navigator) {
+	  window.addEventListener('load', function() {
+	    navigator.serviceWorker.register('service-worker.js')
+	      .then(reg => {
+	        console.log('Service worker registered!', reg);
+	      })
+	      .catch(err => {
+	        console.log('Service worker registration failed: ', err);
+	      });
+	  });
+	}
+	</script>
+
+</body>
+</html>
