@@ -3,7 +3,7 @@ const precacheResources = [
   '/',
   'index.html',
   'styles/main.css',
-  'images/backMind.png',
+  'images/logo.png',
   'images/backAmf.jpg'
 ];
 
