@@ -4,7 +4,7 @@ const precacheResources = [
   'index.html',
   'styles/main.css',
   'images/backMind.png',
-  'back_amf.jpg'
+  'images/backAmf.jpg'
 ];
 
 self.addEventListener('install', event => {

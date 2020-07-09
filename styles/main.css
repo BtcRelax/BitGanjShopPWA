@@ -15,17 +15,26 @@ limitations under the License.
 */
 html {
   background-color: #819AD4;
+ width: 100%;
+ height: 100%;
+ margin: 0px;
+ overflow: hidden;
 }
 
 body {
   align-items: center;
-  background-color: white;
+  background-image: url("../images/backAmf.jpg");
+  min-height: 100%;  
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   font-family: 'Roboto','Helvetica','Arial',sans-serif;
   justify-content: space-between;
   margin: 0;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 header {
