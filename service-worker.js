@@ -4,7 +4,7 @@ const precacheResources = [
   'index.html',
   'styles/main.css',
   'images/logo.png',
-  'images/backAmf.jpg'
+  'images/great-mind.webp'
 ];
 
 self.addEventListener('install', event => {
