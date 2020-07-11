@@ -38,7 +38,6 @@ body {
 }
 
 header {
-  background-color: #0D4A6F;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
               0 3px 1px -2px rgba(0,0,0,.2),
               0 1px 5px 0 rgba(0,0,0,.12);
@@ -47,6 +46,7 @@ header {
   justify-content: center;
   padding: 5px;
   width: 100%;
+  background-color: #6856a886;
 }
 
 .banner {
@@ -75,7 +75,6 @@ button {
   position: relative;
   text-align: center;
   vertical-align: middle;
-  width: 30%;
 }
 
 .card {
@@ -116,7 +115,6 @@ a {
 
 footer {
   align-items: center;
-  background-color: #C281FF;
   box-sizing: border-box;
   display: flex;
   height: 7vh;
@@ -124,4 +122,5 @@ footer {
   min-height: 50px;
   padding: 10px;
   width: 100%;
+  background-color: #6856a886;
 }

@@ -4,8 +4,8 @@
   "lang": "en-US",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#FF9800",
-  "background_color": "#FF9800",
+  "theme_color": "#6856a886",
+  "background_color": "#6856a886",
   "icons": [
     {
       "src": "images/touch/icon-128x128.png",
