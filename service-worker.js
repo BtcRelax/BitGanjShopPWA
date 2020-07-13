@@ -9,6 +9,8 @@ const precacheResources = [
 
 self.addEventListener('install', event => {
   console.log('Service worker install event!');
+  // For install new version withoud reopen all windows
+  self.skipWaiting();
   event.waitUntil(
     caches.open(cacheName)
       .then(cache => {

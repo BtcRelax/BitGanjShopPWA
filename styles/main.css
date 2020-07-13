@@ -56,6 +56,66 @@ header {
   width: 100%;
 }
 
+.pulsed {
+    animation: animationpulse 2s infinite;
+    -webkit-animation: animationpulse 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+   
+}
+
+
+.pulsed:hover {
+  animation: linear;
+}
+@-webkit-keyframes animationpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 inherit;
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes animationpulse {
+  0% {
+    transform: scale(1, 1);
+    -moz-box-shadow: 0 0 0 0 inherit;
+    box-shadow: 0 0 0 0 inherit;
+  }
+  10% {
+    transform: scale(1.1, 1.1);
+  }
+  15% {
+    transform: scale(1, 1);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+@-ms-keyframes animationpulse {
+  0% {
+    -ms-transform: scale(1, 1);
+  }
+  10% {
+    -ms-transform: scale(1.1, 1.1);
+  }
+  20% {
+    -ms-transform: scale(1, 1);
+  }
+  100% {
+    -ms-transform: scale(1, 1);
+  }
+}
+
+
 button {
   background-color: #6856a886;
   border: none;
