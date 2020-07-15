@@ -161,6 +161,12 @@ ul {
   list-style: none;
 }
 
+h1 {
+    font-family: museo-slab, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-shadow: 4px 3px 0px #1d9d74, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
 a {
   color: black;
   font-weight: bold;

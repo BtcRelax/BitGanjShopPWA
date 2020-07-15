@@ -29,7 +29,7 @@
 
 <body>
   <header>
-    <h2>Fastfen Shop</h2>
+    <h1>Fastfen Shop</h1>
   </header>
   <main>
     <section id="installBanner" class="banner">
@@ -60,7 +60,9 @@
 	        console.log('Service worker registration failed: ', err);
 	      });
 	  });
-	}
+	} else {
+        console.log('Service workers are not supported.');
+    }
 	</script>
   <script>
     let deferredPrompt;
