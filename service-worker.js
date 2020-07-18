@@ -2,6 +2,7 @@ const cacheName = 'cache-v1';
 const precacheResources = [
   '/',
   'index.html',
+  'about.html',
   'styles/main.css',
   'images/logo.png',
   'images/great-mind.webp'
