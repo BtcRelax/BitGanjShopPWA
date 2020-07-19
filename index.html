@@ -35,11 +35,7 @@
     <section id="installBanner" class="banner">
         <button id="installBtn">Встановить</button>
     </section>
-    <section class="card">
-      <div>
-        <img class="pulsed" src="images/logo.png" alt="Main Jah logo">
-      </div>
-    </section>
+    <img id="identificator" class="pulsed" src="images/logo.png" alt="Main Jah logo">
   </main>
   <footer>
     <ul class="flex-list">
@@ -47,8 +43,15 @@
     </ul>
   </footer>
 
-   <!-- TODO Register the service worker -->
-   <script>
+  <script src="js/main.js"></script>
+  <script>
+        const identificator = document.getElementById('identificator');
+
+        identificator.addEventListener('click', function() {
+           bitganj.getIdentifiactors();
+        });
+  </script>
+  <script>
 	if ('serviceWorker' in navigator) {
 	  window.addEventListener('load', function() {
 	    navigator.serviceWorker.register('service-worker.js')

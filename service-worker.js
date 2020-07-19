@@ -1,11 +1,18 @@
 const cacheName = 'cache-v1';
 const precacheResources = [
   '/',
+  'manifest.json',
   'index.html',
   'about.html',
   'styles/main.css',
+  'js/main.js',
   'images/logo.png',
-  'images/great-mind.webp'
+  'images/great-mind.webp',
+  'images/touch/icon-128x128.png',
+  'images/touch/icon-192x192.png',
+  'images/touch/icon-256x256.png',
+  'images/touch/icon-384x384.png',
+  'images/touch/icon-512x512.png',
 ];
 
 self.addEventListener('install', event => {
