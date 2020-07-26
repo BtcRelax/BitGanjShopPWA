@@ -60,7 +60,7 @@ header {
     animation: animationpulse 2s infinite;
     -webkit-animation: animationpulse 2s ease-out;
     -webkit-animation-iteration-count: infinite;
-   
+    animation-iteration-count:infinite;
 }
 
 
@@ -188,5 +188,5 @@ footer {
   min-height: 50px;
   padding: 10px;
   width: 100%;
-  background-color: #6856a886;
+  background-color: rgba(176, 170, 240, 0.432);
 }
