@@ -23,7 +23,7 @@ html {
 
 body {
   align-items: center;
-  background-image: url("../images/great-mind.webp");
+  background-image: url("../images/background.png");
   min-height: 100%;  
   background-position: center;
   background-size: cover;
@@ -179,6 +179,29 @@ a {
   width: 100%;
 }
 
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 footer {
   align-items: center;
   box-sizing: border-box;
@@ -190,3 +213,5 @@ footer {
   width: 100%;
   background-color: rgba(176, 170, 240, 0.432);
 }
+
+

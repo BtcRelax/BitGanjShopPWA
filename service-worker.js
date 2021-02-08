@@ -8,11 +8,14 @@ const precacheResources = [
   'js/main.js',
   'images/logo.png',
   'images/great-mind.webp',
+  'images/background.png',
   'images/touch/icon-128x128.png',
   'images/touch/icon-192x192.png',
   'images/touch/icon-256x256.png',
   'images/touch/icon-384x384.png',
   'images/touch/icon-512x512.png',
+  'videos/demo.mp4',
+  'videos/demo.ogg',
 ];
 
 self.addEventListener('install', event => {
